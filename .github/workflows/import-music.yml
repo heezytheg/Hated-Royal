@@ -1,0 +1,44 @@
+name: Import Hated Royal Music
+
+on:
+  push:
+    paths:
+      - ".github/workflows/import-music.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-audio:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download music files
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p music
+          curl -fL --retry 3 "https://celebrated-taffy-ecd229.netlify.app/music/character-creation.mp3" -o music/character-creation.mp3
+          curl -fL --retry 3 "https://celebrated-taffy-ecd229.netlify.app/music/combat.mp3" -o music/combat.mp3
+          curl -fL --retry 3 "https://celebrated-taffy-ecd229.netlify.app/music/travel.mp3" -o music/travel.mp3
+          curl -fL --retry 3 "https://celebrated-taffy-ecd229.netlify.app/music/near-death-dying.mp3" -o music/near-death-dying.mp3
+          curl -fL --retry 3 "https://celebrated-taffy-ecd229.netlify.app/music/recovery.mp3" -o music/recovery.mp3
+          test -s music/character-creation.mp3
+          test -s music/combat.mp3
+          test -s music/travel.mp3
+          test -s music/near-death-dying.mp3
+          test -s music/recovery.mp3
+          file music/*.mp3
+          ls -lh music
+
+      - name: Commit music
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add music/*.mp3
+          git commit -m "Add Hated Royal music files" || exit 0
+          git push
