@@ -1,0 +1,169 @@
+[
+  {
+    "gameplayMusicSettings": {
+      "characterCreationTrackId": "CharacterCreation",
+      "tracks": {
+        "CharacterCreation": {
+          "variants": [
+            {
+              "url": "https://raw.githubusercontent.com/heezytheg/Hated-Royal/main/accidental-roommates/music/character-creation.mp3"
+            }
+          ],
+          "matchTags": [
+            "modern",
+            "contemporary",
+            "slice-of-life",
+            "optimistic"
+          ],
+          "cues": [
+            "character-creation"
+          ]
+        },
+        "ResidenceChill": {
+          "variants": [
+            {
+              "url": "https://raw.githubusercontent.com/heezytheg/Hated-Royal/main/accidental-roommates/music/residence-chill.mp3"
+            }
+          ]
+        },
+        "StudyFocus": {
+          "variants": [
+            {
+              "url": "https://raw.githubusercontent.com/heezytheg/Hated-Royal/main/accidental-roommates/music/study-focus.mp3"
+            }
+          ]
+        },
+        "WorkdayMomentum": {
+          "variants": [
+            {
+              "url": "https://raw.githubusercontent.com/heezytheg/Hated-Royal/main/accidental-roommates/music/workday-momentum.mp3"
+            }
+          ]
+        },
+        "CityTravel": {
+          "variants": [
+            {
+              "url": "https://raw.githubusercontent.com/heezytheg/Hated-Royal/main/accidental-roommates/music/city-travel.mp3"
+            }
+          ],
+          "matchTags": [
+            "city",
+            "commute",
+            "casual",
+            "daytime",
+            "westbridge"
+          ],
+          "cues": [
+            "travel"
+          ]
+        },
+        "RomanceWarm": {
+          "variants": [
+            {
+              "url": "https://raw.githubusercontent.com/heezytheg/Hated-Royal/main/accidental-roommates/music/romance-warm.mp3"
+            }
+          ]
+        },
+        "NightlifeCity": {
+          "variants": [
+            {
+              "url": "https://raw.githubusercontent.com/heezytheg/Hated-Royal/main/accidental-roommates/music/nightlife-city.mp3"
+            }
+          ]
+        },
+        "HarborNight": {
+          "variants": [
+            {
+              "url": "https://raw.githubusercontent.com/heezytheg/Hated-Royal/main/accidental-roommates/music/harbor-night.mp3"
+            }
+          ]
+        },
+        "DramaTension": {
+          "variants": [
+            {
+              "url": "https://raw.githubusercontent.com/heezytheg/Hated-Royal/main/accidental-roommates/music/drama-tension.mp3"
+            }
+          ]
+        },
+        "CombatGrounded": {
+          "variants": [
+            {
+              "url": "https://raw.githubusercontent.com/heezytheg/Hated-Royal/main/accidental-roommates/music/combat-grounded.mp3"
+            }
+          ],
+          "matchTags": [
+            "fight",
+            "confrontation",
+            "self-defense",
+            "grounded"
+          ],
+          "cues": [
+            "combat"
+          ]
+        },
+        "NearDeath": {
+          "variants": [
+            {
+              "url": "https://raw.githubusercontent.com/heezytheg/Hated-Royal/main/accidental-roommates/music/near-death.mp3"
+            }
+          ],
+          "matchTags": [
+            "critical",
+            "injury",
+            "emergency"
+          ],
+          "cues": [
+            "near-death"
+          ]
+        },
+        "Dying": {
+          "variants": [
+            {
+              "url": "https://raw.githubusercontent.com/heezytheg/Hated-Royal/main/accidental-roommates/music/dying.mp3"
+            }
+          ],
+          "matchTags": [
+            "critical",
+            "fatal",
+            "last-moments"
+          ],
+          "cues": [
+            "dying"
+          ]
+        },
+        "Death": {
+          "variants": [
+            {
+              "url": "https://raw.githubusercontent.com/heezytheg/Hated-Royal/main/accidental-roommates/music/death.mp3"
+            }
+          ],
+          "matchTags": [
+            "death",
+            "loss",
+            "aftermath"
+          ],
+          "cues": [
+            "dead"
+          ]
+        },
+        "Recovery": {
+          "variants": [
+            {
+              "url": "https://raw.githubusercontent.com/heezytheg/Hated-Royal/main/accidental-roommates/music/recovery.mp3"
+            }
+          ],
+          "matchTags": [
+            "recovery",
+            "relief",
+            "healing",
+            "rest"
+          ],
+          "cues": [
+            "recovery"
+          ]
+        }
+      }
+    },
+    "characterCreationMusic": "nonfantasy"
+  }
+]
