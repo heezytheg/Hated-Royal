@@ -7,9 +7,7 @@
           "url": "https://raw.githubusercontent.com/heezytheg/Hated-Royal/main/seiranoka/music/a-new-page.mp3"
         }
       ],
-      "cues": [
-        "character-creation"
-      ]
+      "cues": ["character-creation"]
     },
     "Tokyo in Motion": {
       "variants": [
@@ -17,18 +15,8 @@
           "url": "https://raw.githubusercontent.com/heezytheg/Hated-Royal/main/seiranoka/music/tokyo-in-motion.mp3"
         }
       ],
-      "cues": [
-        "travel"
-      ],
-      "matchTags": [
-        "commute",
-        "exploration",
-        "school day",
-        "city",
-        "shopping",
-        "casual",
-        "everyday"
-      ]
+      "cues": ["travel"],
+      "matchTags": ["commute","exploration","school day","city","shopping","casual","everyday"]
     },
     "After Class": {
       "variants": [
@@ -36,16 +24,7 @@
           "url": "https://raw.githubusercontent.com/heezytheg/Hated-Royal/main/seiranoka/music/after-class.mp3"
         }
       ],
-      "matchTags": [
-        "friendship",
-        "romance",
-        "quiet",
-        "heartfelt",
-        "date",
-        "rainy",
-        "reflective",
-        "after school"
-      ]
+      "matchTags": ["friendship","romance","quiet","heartfelt","date","rainy","reflective","after school"]
     }
   }
 }
